@@ -13,5 +13,7 @@ public class Task_scanner {
         int salary= task.nextInt();
 
         System.out.println(Name + age + salary);
+
+        task.close();
     }
 }
